@@ -1,6 +1,6 @@
 function verificarLetraA(texto) {
     
-    const rgx = /a/gi; 
+    const rgx = /[áàâãa]/gi;
     const cont = texto.match(rgx);
     
     
